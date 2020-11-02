@@ -21,7 +21,7 @@ public class RSA {
 
         n   = p.multiply(q);
 
-        e  = BigInteger.probablePrime(N, random);    //
+        e  = BigInteger.probablePrime(N, random);    
         d = e.modInverse(phi);
     }
 
