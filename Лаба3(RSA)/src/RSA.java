@@ -36,7 +36,7 @@ public class RSA {
     }
 
     public static void main(String[] args) {
-        int N = 12;
+        int N = 10;
         RSA key = new RSA(N);
         System.out.println(key);
 
